@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bahnschrift', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg,  #308aff, #00218b);
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch {
+  width: 50%;
+  height: 50%;
+  min-width: 500px;
+  max-width: 500px;
+  background: linear-gradient(135deg,  #222222, #111111);
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+  margin: 200px auto 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stopwatch h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons img {
+  width: 50px;
+  margin: 0 20px;
+  cursor: pointer;
+}
